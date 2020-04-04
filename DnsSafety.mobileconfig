@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This profiles enables Dns Safety for IOS Network Extension by Diladele B.V.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AppBundleIdentifier</key>
+			<string>com.diladele.DnsSafety.App</string>
+			<key>PayloadDescription</key>
+			<string>Configures DNS proxy network extension</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsProxy.managed.20A11F04-029E-4293-8A6E-7F75FBB7248A</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsProxy.managed</string>
+			<key>PayloadUUID</key>
+			<string>20A11F04-029E-4293-8A6E-7F75FBB7248A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProviderBundleIdentifier</key>
+			<string>com.diladele.DnsSafety.App.DnsProxy</string>
+		</dict>
+		<dict>
+			<key>IfLostReturnToMessage</key>
+			<string>Managed by Diladele B.V.</string>
+			<key>PayloadDescription</key>
+			<string>Configures ownership information for a shared device</string>
+			<key>PayloadDisplayName</key>
+			<string>Lock Screen Message</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.shareddeviceconfiguration.E8D49AD5-B1F4-4C29-B478-F6C039EEAE27</string>
+			<key>PayloadType</key>
+			<string>com.apple.shareddeviceconfiguration</string>
+			<key>PayloadUUID</key>
+			<string>E8D49AD5-B1F4-4C29-B478-F6C039EEAE27</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables DnsSafety for IOS Network Extension</string>
+	<key>PayloadDisplayName</key>
+	<string>DnsSafety</string>
+	<key>PayloadIdentifier</key>
+	<string>DnsSafety.F374C95C-EAC6-4840-A722-4663631194FF</string>
+	<key>PayloadOrganization</key>
+	<string>Diladele B.V.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>BACB2801-A17C-40FC-B430-11796C6A8150</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
