@@ -11,8 +11,6 @@ See the following article on how to switch the Phone to supervised mode https://
 
 In order to install the application you would need to generate a management profile for your device using Apple Configurator. A management profile is actually a file with .mobileconfig extension that is installed on the device using Apple Configurator. The following screenshots show steps required to create a new mobile config profile in Apple Configurator.
 
-![Alt text](step1_new_profile.png?raw=true "New Profile") 
-
 ![Alt text](step2_general.png?raw=true "General Settings") 
 
 ![Alt text](step3_configure_dnsproxy.png?raw=true "Configure DNS Proxy Identifiers") 
