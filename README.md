@@ -2,12 +2,13 @@
 Dns Safety for Apple IOS is on-device DNS filter implemented as Network Extension. It can filter and block DNS requests from any application on your iPhone/iPad. This network extension can be used to block domains by name or site category. It also allows you to see what DNS requests were issued by installed applications.
 
 
-## Limitations
+## Limitation 1 - Your iPhone must be supervised
+
 According to Apple's documents DNS proxy implemented as Network Extension can only be run on a supervised (managed) device. To make your device managed you either use Apple Configurator 2 or some third party MDM solution. Although the setup is relatively simple, it does erase the iPhone (you can restore phone settings from the Apple Cloud backup afterwards).
 
 See the following article on how to switch the Phone to supervised mode https://www.howtogeek.com/252286/how-to-put-an-iphone-or-ipad-into-supervised-mode-to-unlock-powerful-management-features/
 
-## Pre installation requirements
+## Limitation 2 - You need to add management profile allowing Dns Proxing
 
 In order to install the application you would need to generate a management profile for your device using Apple Configurator. A management profile is actually a file with .mobileconfig extension that is installed on the device using Apple Configurator. The following screenshots show steps required to create a new mobile config profile in Apple Configurator.
 
