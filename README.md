@@ -34,6 +34,7 @@ Note, if needed you can simply download the profile from [DnsSafety.mobileconfig
 
 Unfortunately it is not possible to submit a managed application like Dns Safety directly into AppStore or TestFlight (in case we are not right please tell us how!). So currently we are forced to distribute the application as AdHoc build - this requires that the ID of your iPhone is compiled into the installer package. To do that please tell your device id to support@diladele.com - we will add it do the device list in the application package and send you the link to the package to install. Once you have the link it is just click on it in Safari.
 
+First download the IPA package for the application from https://www.diladele.com/dnssafety-ios/packages/DnsSafety.ipa then use Apple Configurator 2 to install the application as indicated on https://help.apple.com/xcode/mac/current/#/devade83d1d7?sub=dev87a955931
 
 ## How to use the application
 
