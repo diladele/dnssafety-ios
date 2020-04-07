@@ -1,5 +1,5 @@
-# Dns Safety for IOS
-Dns Safety for Apple IOS is on-device DNS filter implemented as Network Extension. It can filter and block DNS requests from any application on your iPhone/iPad. This network extension can be used to block domains by name or site category. It also allows you to see what DNS requests were issued by installed applications.
+# Dns Safety for iOS
+Dns Safety for Apple iOS is on-device DNS filter implemented as Network Extension. It can filter and block DNS requests from any application on your iPhone/iPad. This network extension can be used to block domains by name or site category. It also allows you to see what DNS requests were issued by installed applications.
 
 
 ## Limitation 1 - Your iPhone must be supervised
@@ -30,11 +30,9 @@ The installed profile will be shown in the list of profiles on the device.
 
 Note, if needed you can simply download the profile from [DnsSafety.mobileconfig](DnsSafety.mobileconfig) and add it into the Application Configurator (i.e. do not use New Profile but Add Profile menu item). Adjust the profile settings as required (but do not change the app id of the network extension).
 
-## Limitation 3 - You need to install the application using Ad Hoc build not AppStore
+## Limitation 3 - You need to use Test Flight
 
-Unfortunately it is not possible to submit a managed application like Dns Safety directly into AppStore or TestFlight (in case we are not right please tell us how!). So currently we are forced to distribute the application as AdHoc build - this requires that the ID of your iPhone is compiled into the installer package. To do that please tell your device id to support@diladele.com - we will add it do the device list in the application package and recompile it. 
-
-Now download the IPA package for the application from https://www.diladele.com/dnssafety-ios/packages/DnsSafety.ipa then use Apple Configurator 2 to install the application as indicated on https://help.apple.com/xcode/mac/current/#/devade83d1d7?sub=dev87a955931
+The application is in beta stage and was recently approved by Apple to be distributed using Test Flight. So if you would like to participate, just send a request to support@diladele.com and we will add your e-mail to the Test Flight beta list. Apple will then send you the invitation link and you can install the application.
 
 ## How to use the application
 
